@@ -2,7 +2,7 @@
 
 # THIS SCRIPT IS NOT THOROUGHLY TESTED, IT'S SHARED AS AN EXAMPLE
 
-#bash -v scc_to_splunk.sh  ORG_NAME="cloudemoz.com" PROJECT_ID="ml-sme-223918" SA_NAME="sa-scc-to-splunk001" KEY_FILENAME="mykey001.json" PUBSUB_TOPIC_NAME="scc-notifications-topic001" PUBSUB_SUB_NAME="scc-notifications-sub001" SCC_NOTIF_NAME="scc-all-findings001"
+#bash -v scc_to_splunk.sh  ORG_NAME="abcd.com" PROJECT_ID="xxxxxx" SA_NAME="sa-scc-to-splunk001" KEY_FILENAME="mykey001.json" PUBSUB_TOPIC_NAME="scc-notifications-topic001" PUBSUB_SUB_NAME="scc-notifications-sub001" SCC_NOTIF_NAME="scc-all-findings001"
 for ARGUMENT in "$@"
 do
 
